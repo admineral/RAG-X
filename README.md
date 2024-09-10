@@ -8,7 +8,7 @@ RAG-X is a cutting-edge AI framework designed to revolutionize video content ana
 
 The diagram below outlines the planned workflow for the RAG-X framework:
 
-![Planned Workflow](public/image1.png)
+![Planned Workflow](public/image1.webp)
 
 ## Key Components
 
