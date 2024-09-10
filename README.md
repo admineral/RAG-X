@@ -15,22 +15,22 @@ The diagram below outlines the planned workflow for the RAG-X framework:
 1. **Video Upload and Extraction**
    - The first step involves uploading the video and extracting its key components, such as frames and audio transcripts, for further analysis.
    
-   ![Video Upload and Extraction](public/image2.png)
+   ![Video Upload and Extraction](public/image2.webp)
 
 2. **Video Processing Pipeline**
    - Breaks down long videos into manageable segments for focused content analysis. This includes frame extraction, similarity search, semantic/context analysis, and scene clustering.
    
-   ![Video Processing Pipeline](public/image3.png)
+   ![Video Processing Pipeline](public/image3.webp)
 
 3. **Captioning Pipeline**
    - Generates high-precision captions and metadata for video clips using advanced AI models like Qwen2-VL, BLIP2, SAM2, and more.
    
-   ![Captioning Pipeline](public/image4.png)
+   ![Captioning Pipeline](public/image4.webp)
 
 4. **Knowledge Base Structuring**
    - Constructs a comprehensive knowledge graph to represent relationships between scenes, segments, and entities, allowing for advanced querying, semantic search, and contextual analysis.
    
-   ![Knowledge Base Structuring](public/image5.png)
+   ![Knowledge Base Structuring](public/image5.webp)
 
 ## Future Enhancements
 
