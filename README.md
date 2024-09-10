@@ -1,57 +1,36 @@
-# RAG-X: Advanced Video Retrieval-Augmented Generation (RAG) Framework 🚧
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-RAG-X is a cutting-edge AI framework designed to revolutionize video content analysis, retrieval, and understanding by integrating Retrieval-Augmented Generation (RAG) techniques with knowledge graph capabilities. This framework deconstructs complex video data into structured, meaningful components and maps them in an interconnected graph, enhancing semantic search, contextual analysis, and information retrieval.
+## Getting Started
 
-> 🚧 **Note**: RAG-X is currently under active development. We are continuously building and refining its features, so stay tuned for updates! Contributions, feedback, and collaboration are welcome!
+First, run the development server:
 
-## Planned Workflow
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
 
-The diagram below outlines the planned workflow for the RAG-X framework:
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-![Planned Workflow](public/image1.png)
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-## Key Components
+This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-1. **Video Upload and Extraction**
-   - The first step involves uploading the video and extracting its key components, such as frames and audio transcripts, for further analysis.
-   
-   ![Video Upload and Extraction](public/image2.png)
+## Learn More
 
-2. **Video Processing Pipeline**
-   - Breaks down long videos into manageable segments for focused content analysis. This includes frame extraction, similarity search, semantic/context analysis, and scene clustering.
-   
-   ![Video Processing Pipeline](public/image3.png)
+To learn more about Next.js, take a look at the following resources:
 
-3. **Captioning Pipeline**
-   - Generates high-precision captions and metadata for video clips using advanced AI models like Qwen2-VL, BLIP2, SAM2, and more.
-   
-   ![Captioning Pipeline](public/image4.png)
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-4. **Knowledge Base Structuring**
-   - Constructs a comprehensive knowledge graph to represent relationships between scenes, segments, and entities, allowing for advanced querying, semantic search, and contextual analysis.
-   
-   ![Knowledge Base Structuring](public/image5.png)
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-## Future Enhancements
+## Deploy on Vercel
 
-- **Enhanced Video Understanding**: Leveraging more advanced models for better scene understanding and narrative creation.
-- **Real-Time Processing**: Optimizing the pipeline for faster, real-time video processing and retrieval.
-- **User Interface**: Developing an intuitive UI for easy navigation and interaction with the knowledge graph.
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-## How to Contribute
-
-We welcome contributions from the community to help us improve and expand RAG-X. If you have ideas, suggestions, or improvements, feel free to submit a pull request or open an issue.
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
-
-## Contact
-
-For any inquiries or feedback, please reach out via [email@example.com](mailto:email@example.com).
-
-Stay tuned for more updates as we build the future of AI-driven video content retrieval!
-
----
-
-*This README is dynamically generated and subject to change as the project progresses.*
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
