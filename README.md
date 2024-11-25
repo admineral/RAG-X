@@ -1,5 +1,5 @@
 # RAG-X: Advanced Video Retrieval-Augmented Generation (RAG) Framework 🚧
-
+https://github.com/yangchris11/samurai
 RAG-X is a cutting-edge AI framework designed to revolutionize video content analysis, retrieval, and understanding by integrating Retrieval-Augmented Generation (RAG) techniques with knowledge graph capabilities. This framework deconstructs complex video data into structured, meaningful components and maps them in an interconnected graph, enhancing semantic search, contextual analysis, and information retrieval.
 
 > 🚧 **Note**: RAG-X is currently under active development. We are continuously building and refining its features, so stay tuned for updates! Contributions, feedback, and collaboration are welcome!
